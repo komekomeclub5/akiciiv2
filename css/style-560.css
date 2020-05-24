@@ -1,0 +1,71 @@
+/* タブレット用スタイルシート 横幅959px以下*/
+@charset "UTF-8"; 
+
+.header-title {
+    display: none!important;
+}
+.header-title-pc {
+    display: inline-block!important;
+    font-size: 2.4rem;
+    line-height: 0.7;
+    color:  #FFF;
+    margin: 0;
+    padding-left: 5%;
+}
+
+
+/* 大教室 */
+.classroom-big {
+    margin: 10% 5% 10% 10%;
+    width: 35%;
+    float: left;
+}
+
+/* 小教室 */
+.classroom-small {
+    margin: 10% 10% 10% 5%;
+    width: 35%;
+    float: right;
+}
+/* 2階教室 */
+.classroom-2floor {
+    margin: 10% 5% 10% 10%;
+    width: 35%;
+}
+/* 13号館の情報 */
+.building-13 {
+    display: none;
+}
+
+/* 4階教室 */
+.classroom-4floor {
+    margin: 10% 5% 10% 10%;
+    width: 35%;
+}
+
+/* フロアマップ */
+.floor-img img{
+    width: 50%;
+    height: auto;
+    margin: 10% 25% 0 25%;
+    
+    border-radius: 2px;
+}
+
+
+
+
+
+/* フッター */
+.footer{
+    margin: 30px auto;
+    width: 80%;
+    color: #404040;
+    font-size: 13px;
+}
+
+
+
+
+
+

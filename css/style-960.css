@@ -1,0 +1,315 @@
+/* パソコン用スタイルシート 横幅960px以上*/
+@charset "UTF-8";
+
+/* 非表示 */
+#tab-area {
+    display: none!important;
+}
+.floor-img{
+    display: none!important;
+}
+.header-title {
+    display: none!important;
+}
+.kyositsu{
+    display: none!important;
+}
+.right{
+    display: none!important;
+}
+.footer-mb {
+    display: none!important;
+}
+
+/* PC用ヘッダータイトル */
+.header-title-pc {
+    display: inline-block!important;
+    font-size: 2.4rem;
+    line-height: 0.7;
+    color:  #FFF;
+    margin: 0;
+    padding-left: 3%;
+}
+
+
+/* モーダルウィンドウのスタイル */
+.btn_area{
+    display: none!important;
+    width:80%;
+    height:180px;
+    position: relative;
+    margin: 10%;
+    background-color:#fff;
+    border-radius: 3px;
+    z-index:2;
+    font-size: 0.8rem;
+}
+.btn_area_title{
+     padding: 5px;
+     font-size: 1.2rem;
+     line-height: 1;
+     background-color: #FCA90B;
+     border-radius: 3px 3px 0px 0px;
+}
+.btn_area ul{
+    padding: 0 10%;
+    font-size: 0.8rem;
+}
+.btn_area p{
+    padding: 0 5%;
+    font-size: 0.8rem;
+}
+.btn_area button{
+    display:block;
+    margin:0 auto;
+}
+
+/* 館　名前 */
+.building-5-pc {
+    display: block!important;
+    margin: 5px 0;
+    font-size: 4rem;
+    color: #3F6796;
+    font-weight: 600;
+}
+.building-13-pc {
+    display: block!important;
+    margin: 5px 0;
+    font-size: 4rem;
+    color: #3F6796;
+    font-weight: 600;
+}
+
+/* 13号館の情報 */
+.building-5 {
+    height: 430px;
+    display: block;
+}
+.building-13 {
+    
+    display: block;
+}
+
+/* 大教室 */
+.classroom-big {
+    margin: 5px 10%;
+    width: 80%;
+}
+
+/* 小教室 */
+.classroom-small {
+    margin: 5px 10%;
+    width: 80%;
+}
+/* 2階教室 */
+.classroom-2floor {
+    margin: 5px 10%;
+    width: 80%;
+}
+
+/* 4階教室 */
+.classroom-4floor {
+    margin: 5px 10%;
+    width: 80%;
+}
+
+
+/* 教室ボックス内 仕切り */
+.main-box{
+    float: left;
+    height: 5%;
+    width: 100%;
+}
+
+
+/* 教室ボックス　空き状況で色分け */
+.box-kougi {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 23%;
+    margin: 10px 1%;
+    background-color: #FCA90B;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+}
+.box-empty {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 23%;
+    margin: 10px 1%;
+    background-color: #009E73;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+}
+
+.box-fuka {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 23%;
+    margin: 10px 1%;
+    background-color: #5F5F5F;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+}
+/* ステータス 黒色 */
+.box-room {
+    position: relative;
+    float: left;
+    width: 50%;
+    color: #404040;
+    padding: 10px 0 3px 6%;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.status{
+    float: right;
+    width: 35%;
+    padding: 10px 6% 3px 0;
+    text-align: right;
+    font-size: 1.5em;
+    color: #404040;
+}
+.time {
+    float: left;
+    width: 100%;
+    padding: 3px 0 10px 6%;
+    font-size: 1.2em;
+    color: #404040;
+}
+
+/* ステータス 白色 */
+.box-room-white {
+    position: relative;
+    float: left;
+    width: 50%;
+    color: #FFF;
+    padding: 10px 0 3px 6%;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.status-white{
+    float: right;
+    width: 35%;
+    padding: 10px 6% 3px 0;
+    text-align: right;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.time-white {
+    float: left;
+    width: 100%;
+    padding: 3px 0 10px 6%;
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+/* ボックス内　矢印 */
+.triangle{
+    position: absolute;
+    top: 35px;
+    margin-right: 6%;
+    
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: #404040 #404040 transparent transparent;
+    transform: rotate(45deg);
+}
+/* ボックス内　矢印　白色 */
+.triangle-white{
+    position: absolute;
+    top: 35px;
+    margin-right: 6%;
+    
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: #FFF #FFF transparent transparent;
+    transform: rotate(45deg);
+}
+
+.mobile-link {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    height:250px;
+    margin-right: 10%;
+    background-color: #FFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+}
+
+.QR {
+    padding: 10px 0 0 10px;
+    position: relative;
+    float: left;
+}
+.mobile-text{
+    padding: 0px 5px 5px 10px;
+    position: relative;
+    float: left;
+}
+
+
+
+
+/* フッター */
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding-left: 3%;
+    width: 97%;
+    background-color: #5F5F5F;
+    color: #FFD800;
+}
+.footer-pc{
+    display: inline;
+    font-size: 2rem;
+    line-height: 0.7;
+}
+
+
+@media screen and (max-width: 1050px) { /*ウィンドウ幅が最大359pxまでの場合に適用*/
+.building-5 {
+    height: 430px;
+    display: block;
+}
+.building-13 {
+    
+    display: block;
+}
+/* 大教室 */
+.classroom-big {
+    margin: 5px 2%;
+    width: 96%;
+}
+
+/* 小教室 */
+.classroom-small {
+    margin: 5px 2%;
+    width: 96%;
+}
+/* 2階教室 */
+.classroom-2floor {
+    margin: 5px 2%;
+    width: 96%;
+}
+
+
+/* 4階教室 */
+.classroom-4floor {
+    margin: 5px 2%;
+    width: 96%;
+}
+
+
+}

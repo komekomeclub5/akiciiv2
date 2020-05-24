@@ -1,0 +1,53 @@
+/* スマホ用スタイルシート  横幅559px以下*/
+@charset "UTF-8";
+
+
+/* ヘッダー　矢印　白色 */
+.triangle-white{
+    position: absolute;
+    top: 23px;
+    margin-left: 8%;
+    
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: #FFF #FFF transparent transparent;
+    transform: rotate(-135deg);
+}
+
+.header-title {
+    /*position: absolute;*/
+    display: inline-block;
+    font-size: 2.4rem;
+    line-height: 0.7;
+    color:  #FFF;
+    margin: 0;
+    padding-left: 10%;
+}
+
+
+/* メインコンテンツ */  
+.main {
+    margin: 2% 10%;
+}
+
+/* 見出し */
+.day {
+    font-size: 3rem;
+    color: #3F6796;
+    font-weight: 600;
+}
+
+
+.list-gen ol{
+  padding-inline-start: 0px;
+  margin-top: 2%;
+  font-size: 2rem;
+  color: #5F5F5F;
+   
+}
+ 
+
+
+
+

@@ -1,0 +1,355 @@
+/* スマホ用スタイルシート  横幅559px以下*/
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+    font-family: "M PLUS Rounded 1c";
+}
+
+body {
+    font-size: 1.6em;
+    margin: 0;
+    background-color: #F3F2F1;
+}
+
+ul {
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+/* ヘッダー */
+.header {
+    /*position: absolute;*/
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #3F6796;
+}
+.header-title {
+    display: inline-block!important;
+    font-size: 2.4rem;
+    line-height: 0.6;
+    color:  #FFF;
+    margin: 0;
+    padding-left: 7%;
+}
+
+.header-title-pc {
+    display: none!important;
+}
+
+
+/* モーダルウィンドウのスタイル */
+
+.btn_area{
+    width:80%;
+    height:230px;
+    position: relative;
+    margin: 10%;
+    background-color:#fff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+    z-index:2;
+    font-size: 0.8rem;
+}
+.btn_area_title{
+     padding: 1px 5%;
+     font-size: 1.2rem;
+     line-height: 1;
+     background-color: #FCA90B;
+     border-radius: 3px 3px 0px 0px;
+}
+.btn_area ul{
+    padding: 20px 10%;
+    font-size: 1.2rem;
+}
+.btn_area p{
+    margin: 0;
+    padding: 0 5% 15px ;
+    font-size: 1.2rem;
+}
+
+.btn_area_footer button{
+    padding: 1.5% 4%;
+    color: #3f6796;
+    background-color: #FFF;
+    border: 1px solid;
+    border-color: #3F6796;
+    border-radius: 3px;
+    display:block;
+    margin:0 auto;
+    font-size: 1.5rem;
+}
+
+
+.btns{
+    margin: 5% 10%;
+}
+
+.b5{
+    margin-right:0%;
+}
+
+/* ボタン(リスト)のスタイル */
+.btn {
+  background-color: #FFF;
+  box-shadow: 0px 3px 6px #00000029;
+  color: #3F6796;
+  display: inline-block;
+  justify-content: space-evenly;
+  font-size: 20px;
+  text-align: center;
+  width: 49.1%;
+  padding: 10px 0;
+  border-radius: 2px;
+}
+/* activeクラス */
+.active {
+  background-color: #3F6796;
+  color: #FFF;
+  box-shadow: none;
+}
+
+
+
+/* 館　名前 PC用 */
+.building-5-pc {
+    display: none;
+}
+.building-13-pc {
+    display: none;
+}
+
+/* 大教室 */
+.classroom-big {
+    margin: 10%;
+}
+
+/* 小教室 */
+.classroom-small {
+    margin: 10%;
+}
+/* 2階教室 */
+.classroom-2floor {
+    margin: 10%;
+}
+/* 13号館の情報 */
+.building-13 {
+    display: none;
+}
+
+/* 4階教室 */
+.classroom-4floor {
+    margin: 10%;
+}
+
+/* フロアマップ */
+.floor-img img{
+    width: 80%;
+    height: auto;
+    margin: 10% 10% 0 10%;
+    
+    border-radius: 2px;
+}
+
+/* ジャンルみたいな */
+.kyositsu {
+    font-size: 3rem;
+    color: #3F6796;
+    font-weight: 600;
+}
+
+/* 教室ボックス内 仕切り */
+.main-box{
+    float: left;
+    height: 80px;
+    width: 90%;
+}
+.right{
+    float: right;
+    height: 80px;
+    width: 10%;
+}
+
+/* 教室ボックス　空き状況で色分け */
+.box-kougi {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #FCA90B;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+}
+/* 教室ボックス　アニメーション */
+.box-kougi:hover {
+    background-color: #FFC350;
+    color: #404040;
+}
+
+.box-empty {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #009E73;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+}
+.box-empty:hover {
+    background-color: #03B181;
+    color: #FFF;
+}
+
+.box-fuka {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #5F5F5F;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+}
+
+.box-fuka:hover {
+    background-color: #808080;
+    color: #FFF;
+}
+
+/* ステータス 黒色 */
+.box-room {
+    position: relative;
+    width: 50%;
+    color: #404040;
+    padding: 10px 0 3px 6%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.status{
+    float: left;
+    width: 30%;
+    padding: 3px 0 10px 6%;
+    font-size: 18px;
+    color: #404040;
+}
+.time {
+    float: left;
+    width: 40%;
+    padding: 3px 0 10px 6%;
+    font-size: 18px;
+    color: #404040;
+}
+
+/* ステータス 白色 */
+.box-room-white {
+    position: relative;
+    color: #FFF;
+    padding: 10px 0 3px 6%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.status-white {
+    float: left;
+    width: 30%;
+    padding: 3px 0 10px 6%;
+    font-size: 18px;
+    color: #FFF;
+}
+.time-white {
+    float: left;
+    width: 40%;
+    padding: 3px 0 10px 6%;
+    font-size: 18px;
+    color: #FFF;
+}
+
+/* ボックス内　矢印 */
+.triangle{
+    position: absolute;
+    top: 35px;
+    margin-right: 6%;
+    
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: #404040 #404040 transparent transparent;
+    transform: rotate(45deg);
+}
+/* ボックス内　矢印　白色 */
+.triangle-white{
+    position: absolute;
+    top: 35px;
+    margin-right: 6%;
+    
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: #FFF #FFF transparent transparent;
+    transform: rotate(45deg);
+}
+
+
+.mobile-link {
+    display: none;
+}
+
+
+/* フッター */
+.footer-mb{
+    margin: 30px auto;
+    width: 80%;
+    color: #404040;
+    font-size: 10px;
+}
+.footer-pc {
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 359px) { /*ウィンドウ幅が最大359pxまでの場合に適用*/
+    /* ボタン(リスト)のスタイル */
+.btn {
+  background-color: #FFF;
+  box-shadow: 0px 3px 6px #00000029;
+  color: #3F6796;
+  display: inline-block;
+  justify-content: space-evenly;
+  font-size: 20px;
+  text-align: center;
+  width: 49%;
+  padding: 10px 0;
+  border-radius: 2px;
+}
+/* activeクラス */
+.active {
+  background-color: #3F6796;
+  color: #FFF;
+  box-shadow: none;
+} 
+
+.status{
+    float: left;
+    width: 35%;
+    padding: 3px 0 10px 6%;
+    font-size: 18px;
+    color: #404040;
+}
+.status-white {
+    float: left;
+    width: 35%;
+    padding: 3px 0 10px 6%;
+    font-size: 18px;
+    color: #FFF;
+}
+
+
+}
